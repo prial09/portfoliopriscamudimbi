@@ -410,6 +410,18 @@ section .button button:hover {
 .services .boxes .box:hover p {
   color: #fff;
 }
+.project-btn{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #bd5d87;
+  color: #e3c9d2;
+  cursor: pointer;
+  border: 6px solid transparent;
+  transition: all 0.4s ease;
+}
 
 /* Contact Me CSS */
 .contact {
@@ -449,6 +461,7 @@ footer .text span a {
 footer .text span a:hover {
   text-decoration: underline;
 }
+
 
 /* Scroll TO Top Button CSS */
 .scroll-button a {
@@ -493,6 +506,7 @@ footer .text span a:hover {
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
+
 }
 
 @media (max-width: 900px) {
